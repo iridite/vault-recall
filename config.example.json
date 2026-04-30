@@ -1,0 +1,21 @@
+{
+  "vaultRoot": "C:/Users/you/ObsidianVault",
+  "databasePath": "./data/vault-recall.db",
+  "include": [
+    "**/*.md"
+  ],
+  "exclude": [
+    ".obsidian/**",
+    ".trash/**",
+    ".git/**",
+    "node_modules/**",
+    ".venv/**",
+    "__pycache__/**",
+    "**/*.response.json"
+  ],
+  "chunk": {
+    "maxChars": 900,
+    "overlapChars": 120,
+    "minChars": 80
+  }
+}
